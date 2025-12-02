@@ -1,12 +1,11 @@
-# Restaurant Finance Analytics (Sales/Expenses)
+# Restaurant Finance Analytics (Income Statement) (Sales/Expenses)
 This project simulates a data analytics solution for a small restaurant.  
-I designed a simple database, wrote SQL queries, and built dashboards to analyze sales, costs, and profitability.
+I designed a AWS environment (VPC, subnets, Security Groups, Ec2), gathered data with AI workflows, cleaned data from different sources (Pyspark and Pandas), designed a OLTP database (Postgres), wrote SQL queries, and built dashboards to analyze sales, costs, and profitability (Power BI & Excel).
 
 ## Goals
 - Track weekly and monthly revenue
 - Identify the main sales channels
-- Identify the all types of expesnses (
-- Estimate food costs and profit margins
+- Identify the all types of expesnses (Cost of Sales, Operating Expenses, Taxes and Interests)
 - Support business decisions with clear dashboards and insights
 
 ## Tech Stack
