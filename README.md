@@ -1,6 +1,6 @@
 # Restaurant Finance Analytics (Income Statement) (Sales/Expenses)
 This project simulates a data analytics solution for a small restaurant.  
-I designed a AWS environment (VPC, subnets, Security Groups, Ec2), gathered data with AI workflows, cleaned data from different sources (Pyspark and Pandas), designed a OLTP database (Postgres), wrote SQL queries, and built dashboards to analyze sales, costs, and profitability (Power BI & Excel).
+I designed a AWS environment (Ec2), gathered data with AI workflows (n8n), cleaned data from different sources (Pyspark and Pandas), designed a OLTP database (Postgres), wrote SQL queries, and built dashboards to analyze sales, costs, and profitability (Power BI & Excel).
 
 ## Goals
 - Track weekly and monthly revenue
@@ -9,12 +9,13 @@ I designed a AWS environment (VPC, subnets, Security Groups, Ec2), gathered data
 - Support business decisions with clear dashboards and insights
 
 ## Tech Stack
-- SQL (e.g. SQLite / PostgreSQL)
-- Python (pandas, Jupyter Notebook) – if used
-- BI tool for dashboards (Power BI / Tableau / Looker Studio)
+- AWS (VPC, Subnets, Security Groups, Ec2)
+- n8n 
+- SQL (PostgreSQL)
+- Python (Pyspark, Pandas, Visual Code) 
+- BI tool for dashboards (Power BI / Excel)
 
 ## Project Structure
-
 - `data/` – sample data files (CSV or SQL)
 - `sql/` – database schema and analysis queries
 - `notebooks/` – Python notebooks for extra analysis and charts
@@ -23,12 +24,10 @@ I designed a AWS environment (VPC, subnets, Security Groups, Ec2), gathered data
 - `README.md` – project description and documentation
 
 ## Example Business Questions
-
 - How much revenue does the restaurant make per day or month?
 - Which menu items generate the most revenue?
 - What is the average ticket size per order?
 - Which items have the best or worst profit margin?
 
 ## Status
-
-Work in progress: I am using this project to practice SQL, data modeling, and dashboard creation for a data analyst role.
+Completed – ongoing refinement
